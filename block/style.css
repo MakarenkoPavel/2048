@@ -1,0 +1,28 @@
+#box {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 405px;
+    height: 405px;
+    background-color: #507299;
+    padding: 20px;
+}
+
+#cube {
+    border: 2px solid #507299;
+    width: 100px;
+    height: 100px;
+    background-color: #F4CD64;
+    display: inline-block;
+    margin: -3px;
+    box-shadow: 0 0 6px #507299;
+    text-align: center;
+}
+
+#number {
+    position: relative;
+    top: 15px;
+
+    font-size: 60px;
+    font-weight: bold;
+    color: #507299;
+}
