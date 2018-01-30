@@ -1,0 +1,89 @@
+html {
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.frame {
+  border: 1px solid black;
+  height: 28em;
+  width: 32em;
+  margin: auto;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.menu {
+  border: 1px solid red;
+  height: 10em;
+}
+
+.title {
+  font-weight: bold;
+  color: #507299;
+  padding: 10px;
+  font-size: 80px;
+  display: inline;
+  float: left;
+}
+
+.score_box {
+  background-color: #507299;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+
+  height: 40px;
+  width: 50px;
+}
+
+#score {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+.best_box {
+  background-color: #507299;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+
+  height: 40px;
+  width: 50px;
+}
+
+#best {
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+#new {
+  background-color: #507299;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  display: inline-block;
+
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+
+  height: 25px;
+  width: 160px;
+}
+
+#new:hover {
+  background-color: #8fa09b;  
+}
