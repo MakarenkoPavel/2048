@@ -1,0 +1,35 @@
+html {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.place {
+  background-color: #ffeaa7;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 35em;
+  width: 35em;
+  margin: auto;
+}
+
+.tile {
+  background-color: #fdcb6e;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 8em;
+  width: 8em;
+  margin: 5px;
+  float: left;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#value {
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 30pt;
+  font-weight: bold;
+}
